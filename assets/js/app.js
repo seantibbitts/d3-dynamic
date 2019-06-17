@@ -199,7 +199,7 @@ function updateToolTipText(chosenXAxis, chosenYAxis, textGroup) {
   }
 
 // Retrieve data from the CSV file and execute everything below
-d3.csv("../assets/data/data.csv").then(function(csv_data) {
+d3.csv("assets/data/data.csv").then(function(csv_data) {
     // if (err) throw err;
   
     // parse data
